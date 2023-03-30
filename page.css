@@ -1,0 +1,33 @@
+body 
+{
+    background-color: lightpink;
+}
+img
+{
+    width: 30%;
+    float: right;
+}
+nav {
+    background-color: rgb(208, 16, 116); 
+    overflow: hidden; 
+}
+
+nav a {
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    background: linear-gradient(to bottom,  #ff7eb9, #ff6ba3);
+    float: left; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+nav a:hover {
+    background-color: rgb(156, 16, 16); 
+    color: black; 
+}
+h2
+{
+    
+}
